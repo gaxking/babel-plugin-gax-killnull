@@ -4,9 +4,12 @@
 ## usage
 npm install babel-plugin-gax-killnull --save-dev  
 
-加入gax-killnull插件, 在你的.babelrc，like this  
+加入gax-killnull插件, 在你的.babelrc，like this 
+
+```javascript
 { "presets": ["es2015","stage-0"],
   "plugins": [
     "gax-killnull"
   ]
 }
+```
